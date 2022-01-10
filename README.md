@@ -1,2 +1,2 @@
 # Pulse
-my second training site
+my training site
