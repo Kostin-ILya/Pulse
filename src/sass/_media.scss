@@ -216,6 +216,9 @@
     align-items: center;
   }
   .button {
+    &_header {
+      font-size: 9px;
+    }
     &_submit {
       width: 280px;
       height: 40px;
