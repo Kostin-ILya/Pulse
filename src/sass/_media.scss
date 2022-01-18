@@ -76,6 +76,12 @@
     &__content {
       justify-content: space-around;
     }
+    &__tabs {
+      margin-top: 30px;
+    }
+    &__content {
+      margin-top: 40px;
+    }
   }
 }
 
@@ -110,6 +116,7 @@
       height: 20px;
       font-size: 10px;
       margin-top: 3px;
+      line-height: 20px;
     }
     &_main {
       margin-top: 25px;
@@ -139,6 +146,35 @@
         width: 250px;
         height: 40px;
       }
+    }
+  }
+  .catalog {
+    &-item {
+      width: 250px;
+      padding: 10px;
+    }
+  }
+  .feed {
+    padding-bottom: 30px;
+    &__block {
+      padding-right: 0;
+    }
+    &__photo {
+      margin-right: 30px;
+      max-width: 130px;
+    }
+  }
+  .footer {
+    &__info {
+      padding: 30px;
+      height: 200px;
+      width: 430px;
+    }
+    &__phone {
+      margin-top: 20px;
+    }
+    &__social {
+      margin-top: 30px;
     }
   }
 }
