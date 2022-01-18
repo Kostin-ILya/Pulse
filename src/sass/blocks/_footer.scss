@@ -28,8 +28,10 @@
     font-weight: 700;
     color: #ffffff;
     text-decoration: none;
+    transition: 0.5s all;
     &:hover {
       color: #fff;
+      text-decoration: underline;
     }
   }
   &__social {
@@ -46,6 +48,10 @@
       height: 50px;
       border: 2px solid #ffffff;
       border-radius: 100%;
+      transition: 0.5s all;
+      &:hover {
+        border-color: #f00;
+      }
       img {
         height: 27px;
       }
