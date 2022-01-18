@@ -71,6 +71,12 @@
       }
     }
   }
+  .catalog {
+    padding-bottom: 30px;
+    &__content {
+      justify-content: space-around;
+    }
+  }
 }
 
 @media (max-width: 767px) {
