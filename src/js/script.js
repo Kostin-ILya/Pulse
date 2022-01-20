@@ -85,4 +85,10 @@ $(document).ready(function(){
   validateForms('#consultation-form form');
   validateForms('#order form');
 
+// Mask input 
+
+  $('input[name=phone]').mask("+7(999) 999-99-99");
+   
+
 });
+
