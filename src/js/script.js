@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  // Slider
+  
   $('.carousel__inner').slick({
     speed: 1200,
     dots: true,
@@ -107,7 +109,7 @@ $(document).ready(function(){
     return false;
 });
 
-// Pageup + scroll
+// Pageup 
 
 $(window).scroll(function() {
   if ($(this).scrollTop() > 600) {
@@ -116,6 +118,12 @@ $(window).scroll(function() {
     $('.pageup').fadeOut();
   }
 });
+
+// Animate CSS/ Wow JS
+
+new WOW().init();
+
+
 
 });
 

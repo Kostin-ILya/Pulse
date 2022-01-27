@@ -10,13 +10,13 @@
   color: #ffffff;
   text-align: center;
   transition: 0.5s all;
+  line-height: 1;
   &:hover {
     background-color: rgba(245, 16, 16, 0.829);
     box-shadow: 0px 1px 10px 2px #e44343;
   }
   &_header {
     margin-top: 5px;
-    line-height: 28px;
   }
   &_main {
     margin-top: 67px;

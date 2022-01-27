@@ -363,9 +363,6 @@
       width: 100%;
       input {
         width: 100%;
-        // &:last-of-type {
-        //   margin-bottom: inherit;
-        // }
       }
       .button {
         margin-top: 20px;
@@ -377,5 +374,8 @@
         margin-bottom: 7px;
       }
     }
+  }
+  .pageup {
+    display: none;
   }
 }
