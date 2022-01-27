@@ -18,7 +18,7 @@
   background-color: #f2f2f2;
   outline-color: pink;
   &_mini {
-    height: 140px;
+    min-height: 140px;
   }
   &__close {
     position: absolute;
