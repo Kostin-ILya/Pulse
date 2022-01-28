@@ -305,9 +305,19 @@
       &__img {
         height: 150px;
       }
+      &__descr {
+        font-size: 13px;
+      }
       hr {
         margin: 10px 0;
         width: 100%;
+      }
+      &__list {
+        ul {
+          li {
+            font-size: 13px;
+          }
+        }
       }
     }
   }
@@ -376,6 +386,7 @@
     }
   }
   .pageup {
-    display: none;
+    width: 0;
+    height: 0;
   }
 }
