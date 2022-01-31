@@ -365,6 +365,9 @@
     width: 80%;
     min-height: 360px;
     padding: 15px;
+    &_mini {
+      min-height: 140px;
+    }
     &__close {
       right: -30px;
       font-size: 35px;
